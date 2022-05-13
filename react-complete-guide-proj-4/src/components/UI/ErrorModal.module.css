@@ -1,0 +1,36 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+.modal-body {
+  background-color: white;
+  padding: 1rem;
+}
+.modal-title {
+  text-align: start;
+  color: white;
+  background-color: purple;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.modal-footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  text-align: end;
+}
