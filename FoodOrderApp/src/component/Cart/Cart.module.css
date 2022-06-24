@@ -1,0 +1,40 @@
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close {
+  cursor: pointer;
+
+  padding: 0.5rem 1rem;
+  color: #ad5502;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #ad5502;
+  margin: 0.25rem;
+}
+
+.order {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #ad5502;
+  border-radius: 20px;
+  border: 1px solid #ad5502;
+  margin: 0.25rem;
+}
+
+.order:hover,
+.order:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
